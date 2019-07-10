@@ -1,1 +1,1 @@
-Render port 8500: https://[[HOST_SUBDOMAIN]]-1880-[[KATACODA_HOST]].environments.katacoda.com/
+Node-RED Start

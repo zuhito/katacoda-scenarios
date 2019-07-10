@@ -24,9 +24,11 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "showdashboard": true,
+    "dashboards": [{"name": "Tab Name", "port": 1880}],
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "ubuntu"
   }
 }
