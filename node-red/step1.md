@@ -1,4 +1,16 @@
-以下のコマンドを打ってNode-REDをインストールします。
+Node.jsのバージョンを確認します。
+
+```
+node -v
+```
+
+npmのバージョンも確認します。
+
+```
+npm -v
+```
+
+バージョンが出て確認できたら、以下のコマンドを打ってNode-REDをインストールします。
 
 ```
 sudo npm install -g --unsafe-perm node-red
@@ -10,3 +22,4 @@ sudo npm install -g --unsafe-perm node-red
 node-red
 ```
 
+起動できたら、ターミナルにあるタブの「Node-RED Open」を開きます。
