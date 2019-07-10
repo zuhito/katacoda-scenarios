@@ -25,7 +25,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "port": 1880}],
+    "dashboards": [{"name": "Node-RED", "port": 1880}],
     "uilayout": "terminal"
   },
   "backend": {
