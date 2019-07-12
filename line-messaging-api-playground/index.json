@@ -9,7 +9,10 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+        "text": "intro.md",
+        "courseData": "background.sh",
+        "code": "foreground.sh",
+        "credits": ""
     },
     "finish": {
       "text": "finish.md"
