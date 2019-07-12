@@ -1,0 +1,27 @@
+{
+  "title": "LINE Messaging API Playground (ja)",
+  "description": "LINE Messaging API Playground (ja)",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Pathway Files",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [
+      "app.js", "server.js"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "node"
+  }
+}
