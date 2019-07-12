@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat <<EOF > server.js
+cat <<EOF > /home/scrapbook/tutorial/server.js
 'use strict';
 
 const express = require('express');
