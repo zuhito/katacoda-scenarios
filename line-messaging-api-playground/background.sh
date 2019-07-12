@@ -1,5 +1,9 @@
 #!/bin/bash
 
+npm init -y
+
+npm i express @line/bot-sdk
+
 cat <<EOF > /home/scrapbook/tutorial/server.js
 'use strict';
 
