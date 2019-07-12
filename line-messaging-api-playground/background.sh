@@ -47,5 +47,5 @@ function handleEvent(event) {
 }
 
 app.listen(PORT);
-console.log(`Server running at ${PORT}`);
+console.log("Server running at" + PORT);
 EOF
