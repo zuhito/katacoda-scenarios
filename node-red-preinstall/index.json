@@ -1,0 +1,29 @@
+{
+  "title": "Node-RED first step",
+  "description": "Node-RED first step",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "courseData": "background.sh",
+        "code": "foreground.sh",
+        "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Node-RED Open", "port": 1880}],
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "katacoda-scenarios",
+  "version": "1.0.0",
+  "description": "[![](http://shields.katacoda.com/katacoda/1ft-seabass/count.svg)](https://www.katacoda.com/1ft-seabass \"Get your profile on Katacoda.com\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "../katacoda_windows_amd64.exe p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1ft-seabass/katacoda-scenarios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1ft-seabass/katacoda-scenarios/issues"
+  },
+  "homepage": "https://github.com/1ft-seabass/katacoda-scenarios#readme"
+}
