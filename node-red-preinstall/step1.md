@@ -1,31 +1,24 @@
-Node.jsのバージョンを確認します。
+# 自動インストールを待ちます
+
+最初にNode-REDインストールされます。
 
 ```
-node -v
+Welcome to Node-RED
+===================
 ```
 
-npmのバージョンも確認します。
+や
 
 ```
-npm -v
+[info] Server now running at http://127.0.0.1:1880/
 ```
 
-バージョンが出て確認できたら、以下のコマンドを打ってNode-REDをインストールします。
+といった文言が出たら準備完了です！自動で起動されます。
 
-```
-sudo npm install -g --unsafe-perm node-red
-```
-
-インストールできたら以下のコマンド打ちます。
-
-```
-node-red
-```
-
-↑ ここまで自動で行われます。
+# アクセスしてみよう
 
 起動できたら、ターミナルにあるタブの「Node-RED Open」あるいは
 
 https://[[HOST_SUBDOMAIN]]-1880-[[KATACODA_HOST]].environments.katacoda.com/
 
-を開きます。
+を開いてNode-REDを体験しましょう！
