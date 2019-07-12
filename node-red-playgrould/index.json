@@ -1,6 +1,6 @@
 {
-  "title": "Node-RED first step",
-  "description": "Node-RED first step",
+  "title": "Node-RED Playground (ja)",
+  "description": "Node-RED Playground (ja)",
   "details": {
     "steps": [
       {
@@ -9,7 +9,10 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+        "text": "intro.md",
+        "courseData": "background.sh",
+        "code": "foreground.sh",
+        "credits": ""
     },
     "finish": {
       "text": "finish.md"
