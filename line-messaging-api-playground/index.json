@@ -19,7 +19,7 @@
     }
   },
   "files": [
-      "app.js", "server.js"
+      "app.js"
   ],
   "environment": {
     "uilayout": "editor-terminal"
