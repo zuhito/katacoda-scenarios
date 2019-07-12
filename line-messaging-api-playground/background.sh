@@ -8,20 +8,19 @@ const line = require('@line/bot-sdk');
 const PORT = process.env.PORT || 3000;
 
 const config = {
-    channelSecret: '作成したBOTのチャンネルシークレット',
-    channelAccessToken: '作成したBOTのチャンネルアクセストークン'
+    channelSecret: 'channelSecret',
+    channelAccessToken: 'channelAccessToken'
 };
 
 const app = express();
 
-app.get('/', (req, res) => res.send('Hello LINE BOT!(GET)')); //ブラウザ確認用(無くても問題ない)
+app.get('/', (req, res) => res.send('Hello LINE BOT!(GET)'));
 app.post('/webhook', line.middleware(config), (req, res) => {
     console.log(req.body.events);
 
-    //ここのif分はdeveloper consoleの"接続確認"用なので削除して問題ないです。
     if(req.body.events[0].replyToken === '00000000000000000000000000000000' && req.body.events[1].replyToken === 'ffffffffffffffffffffffffffffffff'){
         res.send('Hello LINE BOT!(POST)');
-        console.log('疎通確認用');
+        console.log('Connecting Check!');
         return; 
     }
 
@@ -39,7 +38,7 @@ function handleEvent(event) {
 
   return client.replyMessage(event.replyToken, {
     type: 'text',
-    text: event.message.text //実際に返信の言葉を入れる箇所
+    text: event.message.text
   });
 }
 
