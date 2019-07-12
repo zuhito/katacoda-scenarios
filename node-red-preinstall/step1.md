@@ -22,4 +22,10 @@ sudo npm install -g --unsafe-perm node-red
 node-red
 ```
 
-起動できたら、ターミナルにあるタブの「Node-RED Open」を開きます。
+↑ ここまで自動で行われます。
+
+起動できたら、ターミナルにあるタブの「Node-RED Open」あるいは
+
+https://[[HOST_SUBDOMAIN]]-1880-[[KATACODA_HOST]].environments.katacoda.com/
+
+を開きます。
