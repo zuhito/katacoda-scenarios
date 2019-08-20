@@ -7,7 +7,7 @@ sudo npm install -g --unsafe-perm node-red
 pwd
 ls -lha
 
-node-red
+# node-red
 
 # ADD PASSWORD #########################
 
