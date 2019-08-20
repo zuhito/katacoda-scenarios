@@ -17,6 +17,7 @@ npm install bcryptjs -g
 # interactive
 echo -n "Please wnter your Node-RED password. Your Node-RED ID is admin."
 read YOUR_NODERED_PASSWORD
+echo YOUR_NODERED_PASSWORD
 
 echo "# nodered password crypt make"
 UI_NODERED_PASSWORD_CRYPT=`node -e "console.log(require('bcryptjs').hashSync(process.argv[1], 8));" ${YOUR_NODERED_PASSWORD}`
