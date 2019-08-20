@@ -1,5 +1,5 @@
 echo "This is automatically run when the scenario"
-echo "node-red-playground version 0.0.6"
+echo "node-red-playground version 0.0.7"
 
 node -v
 npm -v
@@ -16,7 +16,9 @@ npm install bcryptjs -g
 
 # interactive
 echo -n "Please wnter your Node-RED password. Your Node-RED ID is admin."
+
 read YOUR_NODERED_PASSWORD
+
 echo YOUR_NODERED_PASSWORD
 
 echo "# nodered password crypt make"
