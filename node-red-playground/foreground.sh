@@ -1,5 +1,5 @@
 echo "This is automatically run when the scenario"
-echo "node-red-playground version 0.0.13"
+echo "node-red-playground version 0.0.14"
 
 node -v
 npm -v
@@ -18,7 +18,18 @@ npm install bcryptjs
 YOUR_NODERED_SETTING_DIR=/root/.node-red/settings.js
 YOUR_NODERED_PASSWORD=$(more /dev/urandom  | tr -d -c '[:alnum:]' | fold -w 10 | head -1)
 UI_NODERED_PASSWORD_CRYPT=`node -e "console.log(require('bcryptjs').hashSync(process.argv[1], 8));" ${YOUR_NODERED_PASSWORD}`
-REPLACE_SETTING_STR="adminAuth:{\n        type: \"credentials\",\n        users: [{\n            username: \"admin\",\n            password: \"CLOUD_NODERED_PASSWORD\",\n            permissions: \"*\"\n        }]\n    },\n    \/\/adminAuth:"
+REPLACE_SETTING_STR=`cat << EOS
+    adminAuth:{
+        type: "credentials",
+        users: [{
+            username: "admin",
+            password: "CLOUD_NODERED_PASSWORD",
+            permissions: "*"
+        }]
+    },
+    //adminAuth:
+EOS
+`
 
 echo "YOUR_NODERED_PASSWORD=${YOUR_NODERED_PASSWORD}"
 
