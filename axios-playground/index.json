@@ -1,0 +1,28 @@
+{
+  "title": "Node.js axios Playground",
+  "description": "Node.js axios Playground Test Version v0.0.1 :)  (ja)",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Pathway Files",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "courseData": "background.sh",
+        "code": "foreground.sh",
+        "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [],
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "node"
+  }
+}
