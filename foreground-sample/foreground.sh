@@ -20,17 +20,18 @@ echo '//adminAuth:' > $YOUR_NODERED_SETTING_DIR
 
 cat $YOUR_NODERED_SETTING_DIR
 
-sed -i -e "s/\/\/adminAuth:/adminAuth:{\n\
-        type: \"credentials\",\n\
-        users: [{\n\
-            username: \"admin\",\n\
-            password: \"CLOUD_NODERED_PASSWORD\",\n\
-            permissions: \"*\"\n\
-        }]\n\
-    },\n\
-    \/\/adminAuth:/" $YOUR_NODERED_SETTING_DIR
-
-cat $YOUR_NODERED_SETTING_DIR
+## NG
+# sed -i -e "s/\/\/adminAuth:/adminAuth:{\n\
+#         type: \"credentials\",\n\
+#         users: [{\n\
+#             username: \"admin\",\n\
+#             password: \"CLOUD_NODERED_PASSWORD\",\n\
+#             permissions: \"*\"\n\
+#         }]\n\
+#     },\n\
+#     \/\/adminAuth:/" $YOUR_NODERED_SETTING_DIR
+# 
+# cat $YOUR_NODERED_SETTING_DIR
 
 #### NG
 # sed -i -e "s/\/\/adminAuth:/adminAuth:{\n\
