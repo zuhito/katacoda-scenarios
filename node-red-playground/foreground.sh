@@ -1,5 +1,5 @@
 echo "This is automatically run when the scenario"
-echo "node-red-playground version 0.0.17"
+echo "node-red-playground version 0.0.18"
 
 node -v
 npm -v
