@@ -1,7 +1,7 @@
 #!/bin/bash
 
-while true
-do
-  echo "work!"
-  sleep 1
-done
+echo "This is a background script with a long running process"
+
+sleep 10
+
+echo "done" >> /opt/.backgroundfinished
