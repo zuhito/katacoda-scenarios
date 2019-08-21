@@ -14,6 +14,7 @@ YOUR_NODERED_SETTING_DIR=settings.js
 YOUR_NODERED_PASSWORD=$(more /dev/urandom  | tr -d -c '[:alnum:]' | fold -w 10 | head -1)
 UI_NODERED_PASSWORD_CRYPT=`node -e "console.log(require('bcryptjs').hashSync(process.argv[1], 8));" ${YOUR_NODERED_PASSWORD}`
 
+
 echo $YOUR_NODERED_PASSWORD
 echo '//adminAuth:' > $YOUR_NODERED_SETTING_DIR
 
