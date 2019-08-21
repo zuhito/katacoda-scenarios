@@ -1,5 +1,5 @@
 echo "This is automatically run when the scenario"
-echo "v 0.0.8"
+echo "v 0.0.9"
 
 pwd
 
@@ -43,9 +43,10 @@ cat $YOUR_NODERED_SETTING_DIR
 # cat $YOUR_NODERED_SETTING_DIR
 
 #### OK
-sed -i -e "s/\/\/adminAuth:/adminAuth:{\
-        type: \"credentials\",\
-        users: [{ username: \"admin\", password: \"CLOUD_NODERED_PASSWORD\", permissions: \"*\" }] },/" $YOUR_NODERED_SETTING_DIR
+sed -i -e 's/\/\/adminAuth:/adminAuth:{\n       type: \"credentials\",\n       users: [{ username: \"admin\", password: \"CLOUD_NODERED_PASSWORD\", permissions: \"*\" }] },/' $YOUR_NODERED_SETTING_DIR
+
+#### OK
+# sed -i -e "s/\/\/adminAuth:/adminAuth:{ type: \"credentials\", users: [{ username: \"admin\", password: \"CLOUD_NODERED_PASSWORD\", permissions: \"*\" }] }," $YOUR_NODERED_SETTING_DIR
 
 #### OK
 # sed -i -e "s/\/\/adminAuth:/adminAuth:{ type: \"credentials\", users: [{ username: \"admin\", password: \"CLOUD_NODERED_PASSWORD\", permissions: \"*\" }] }," $YOUR_NODERED_SETTING_DIR
