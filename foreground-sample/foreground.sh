@@ -61,7 +61,7 @@ sed -i -e "s/\/\/adminAuth:/adminAuth:{[NLINE]\
     },[NLINE]\
     \/\/adminAuth:/" $YOUR_NODERED_SETTING_DIR
 
-sed -i -e "s/\[NLINE\]/\r/g" $YOUR_NODERED_SETTING_DIR
+sed -i -e "s/\[NLINE\]/16#0D/g" $YOUR_NODERED_SETTING_DIR
 
 # sed -i -e "s/\[NLINE\]/\n/g" $YOUR_NODERED_SETTING_DIR ← 無理やりコマンド開放される模様　えぐい。
 
