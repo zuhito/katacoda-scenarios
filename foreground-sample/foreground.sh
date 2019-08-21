@@ -1,5 +1,5 @@
 echo "This is automatically run when the scenario"
-echo "v 0.0.4"
+echo "v 0.0.5"
 
 pwd
 
@@ -29,5 +29,14 @@ sed -i -e "s/\/\/adminAuth:/adminAuth:{\n\
         }]\n\
     },\n\
     \/\/adminAuth:/" $YOUR_NODERED_SETTING_DIR
+
+cat $YOUR_NODERED_SETTING_DIR
+
+sed -i -e "s/\/\/adminAuth:/adminAuth:{\n\
+        type:/" $YOUR_NODERED_SETTING_DIR
+
+cat $YOUR_NODERED_SETTING_DIR
+
+sed -i -e "s/\/\/adminAuth:/adminAuth:\"sample\"/" $YOUR_NODERED_SETTING_DIR
 
 cat $YOUR_NODERED_SETTING_DIR
