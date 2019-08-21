@@ -5,7 +5,9 @@
     "steps": [
       {
         "title": "Step 1 - Pathway Files",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "background.sh",
+        "code": "foreground.sh",
       }
     ],
     "intro": {

@@ -1,5 +1,5 @@
 echo "This is automatically run when the scenario"
-echo "v 0.0.2"
+echo "v 0.0.3"
 
 pwd
 
