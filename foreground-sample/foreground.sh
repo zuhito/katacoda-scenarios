@@ -51,19 +51,24 @@ cat $YOUR_NODERED_SETTING_DIR
 #### OK
 # sed -i -e "s/\/\/adminAuth:/adminAuth:{ type: \"credentials\", users: [{ username: \"admin\", password: \"CLOUD_NODERED_PASSWORD\", permissions: \"*\" }] }," $YOUR_NODERED_SETTING_DIR
 
-sed -i -e "s/\/\/adminAuth:/adminAuth:{[NLINE]\
-        type: \"credentials\",[NLINE]\
-        users: [{[NLINE]\
-            username: \"admin\",[NLINE]\
-            password: \"CLOUD_NODERED_PASSWORD\",[NLINE]\
-            permissions: \"*\"[NLINE]\
-        }][NLINE]\
-    },[NLINE]\
+sed -i -e "s/\/\/adminAuth:/adminAuth:{\x0A\
+        type: \"credentials\",\x0A\
+        users: [{\x0A\
+            username: \"admin\",\x0A\
+            password: \"CLOUD_NODERED_PASSWORD\",\x0A\
+            permissions: \"*\"\x0A\
+        }]\x0A\
+    },\x0A\
     \/\/adminAuth:/" $YOUR_NODERED_SETTING_DIR
 
-sed -i -e "s/\[NLINE\]/16#0D/g" $YOUR_NODERED_SETTING_DIR
+# echoコマンド（引数で指定した内容を標準出力に出力する） : JP1/Advanced Shell
+# http://itdoc.hitachi.co.jp/manuals/3021/3021313330/JPAS0389.HTM
+# LINE=`echo -e "\x0D"`
+#
+# sed -i -e "s/\[NLINE\]/$LINE/" $YOUR_NODERED_SETTING_DIR
 
 # sed -i -e "s/\[NLINE\]/\n/g" $YOUR_NODERED_SETTING_DIR ← 無理やりコマンド開放される模様　えぐい。
+# ターミナル入力なら改行入れれる、foregroundバッチだと改行が入力改行として発動しエラーになる。
 
 cat $YOUR_NODERED_SETTING_DIR
 
