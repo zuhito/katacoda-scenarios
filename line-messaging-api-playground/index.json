@@ -4,9 +4,25 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Pathway Files",
+        "title": "Step 1 - 自動で環境構築",
         "text": "step1.md"
       }
+      ,
+      {
+        "title": "Step 2 - server.jsに反映",
+        "text": "step2.md"
+      }
+      ,
+      {
+        "title": "Step 3 - server.jsを動作させてWebhook URLを設定",
+        "text": "step3.md"
+      }
+      ,
+      {
+        "title": "Step 4 - 試してみよう！",
+        "text": "step4.md"
+      }
+      
     ],
     "intro": {
         "text": "intro.md",
