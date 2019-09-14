@@ -2,6 +2,12 @@
   "title": "Node-RED Playground for development branch",
   "description": "Node-RED Playground for development branch",
   "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
     "intro": {
         "text": "intro.md",
         "courseData": "background.sh",
