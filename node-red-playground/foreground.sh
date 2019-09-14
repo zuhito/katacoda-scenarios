@@ -15,5 +15,5 @@ npm install node-red-node-ui-table
 npm install node-red-node-ui-list
 npm install node-red-node-ui-vega
 npm install git+https://github.com/node-red/node-red-node-swagger.git
-
+cd ~/node-red
 npm start
