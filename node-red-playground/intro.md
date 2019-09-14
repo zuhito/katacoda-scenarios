@@ -1,10 +1,1 @@
-## この教材について
-
-この教材はNode-REDが自動でインストールされて、すぐにNode-REDを楽しめるものです。
-
-* Node-REDのインストール
-* Node-REDの外部からのログインパスワード設定
-
-この2点が自動で行なわれます。
-
-さあはじめましょう！
+Node-RED Playground for development branch
