@@ -20,7 +20,8 @@
   },
   "environment": {
     "showdashboard": true,
-    "uilayout": "terminal"
+    "dashboard": "Dashboard",
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "ubuntu"
