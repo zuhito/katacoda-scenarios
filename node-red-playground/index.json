@@ -20,7 +20,8 @@
   },
   "environment": {
     "uilayout": "terminal-iframe-split",
-    "hideintro": true
+    "hideintro": true,
+    "hidefinish": true
   },
   "backend": {
     "imageid": "ubuntu",
