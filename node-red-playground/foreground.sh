@@ -9,7 +9,7 @@ npm install
 npm run build
 mkdir ~/.node-red
 cd ~/.node-red
-# sed "s/enabled: false/enabled: true/" ~/node-red/packages/node_modules/node-red/settings.js > settings.js
+sed "s/enabled: false/enabled: true/" ~/node-red/packages/node_modules/node-red/settings.js > settings.js
 npm install git+https://github.com/node-red/node-red-dashboard.git
 git clone https://github.com/node-red/node-red-ui-nodes.git
 # ls -d node-red-ui-nodes/*/ | grep node-red-node-ui- | xargs -I{} npm install {}
