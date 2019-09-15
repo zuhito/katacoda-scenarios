@@ -19,8 +19,6 @@
     }
   },
   "environment": {
-    "showdashboard": true,
-    "dashboards": [{"name": "Node-RED", "port": 1880}],
     "uilayout": "terminal-iframe-split"
   },
   "backend": {
