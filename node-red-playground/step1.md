@@ -1,5 +1,5 @@
 # Wait for the installation process
-The installation process will start the development version of Node-RED within 1 minute.
+The installation process will start the development version of Node-RED within one minute.
 
 # Open the Node-RED flow editor
 After installing the Node-RED, you can access the flow editor using the iframe or the following URL.
