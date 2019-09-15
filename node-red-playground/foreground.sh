@@ -2,10 +2,11 @@ node -v
 npm -v
 # sudo npm install -g --unsafe-perm node-red@next
 # node-red
-npm install -g grunt
 git clone https://github.com/node-red/node-red.git
 cd node-red
 git checkout dev
+npm install -g grunt
+npm install grunt
 npm install --production
 npm run build
 mkdir ~/.node-red
