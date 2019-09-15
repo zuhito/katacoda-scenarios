@@ -8,9 +8,3 @@ Visit https://www.katacoda.com/1ft-seabass to view the profile and interactive s
 Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
 
 For examples, visit https://github.com/katacoda/scenario-example
-
-<script src="//katacoda.com/embed.js"></script>
-<div id="katacoda-scenario-1"
-    data-katacoda-id="zuhito/node-red-playground"
-    data-katacoda-color="004d7f"
-    style="height: 600px; padding-top: 20px;"></div>
