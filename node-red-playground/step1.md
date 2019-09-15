@@ -1,4 +1,4 @@
-# Wait for installation process
+# Wait for the installation process
 The installation process will start Node-RED within 1 minute.
 
 # Open Node-RED flow editor
