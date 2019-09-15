@@ -21,9 +21,10 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [{"name": "Node-RED", "port": 1880}],
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal-iframe-split"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu",
+    "port": 80
   }
 }
