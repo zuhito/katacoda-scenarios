@@ -19,7 +19,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe-split"
+    "uilayout": "terminal-iframe-split",
+    "hideintro": true
   },
   "backend": {
     "imageid": "ubuntu",
