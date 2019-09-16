@@ -1,1 +1,1 @@
-# Interactive Katacoda Scenarios
+# Node-RED Playgroud for Katacoda Scenarios
