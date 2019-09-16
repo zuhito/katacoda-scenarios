@@ -1,4 +1,4 @@
 node -v
 npm -v
-sudo npm install -g --unsafe-perm node-red@next
+sudo npm install -g --unsafe-perm node-red
 node-red
