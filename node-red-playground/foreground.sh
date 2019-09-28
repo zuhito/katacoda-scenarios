@@ -25,21 +25,19 @@ npm install node-red-contrib-julius
 npm install node-red-contrib-cognitive-services
 npm install node-red-contrib-iss-location
 npm install node-red-contrib-sakura-io-datastore-api
-npm install node-red-contrib-sakura-io-datastore-api
 npm install node-red-contrib-embedded-file
 npm install node-red-contrib-java-function
 npm install node-red-contrib-cloud-vision-api
 npm install node-red-contrib-openjtalk
 npm install node-red-contrib-azure-iot-edge
-npm install node-red-contrib-iss-location
-npm install node-red-contrib-whois
-npm install node-red-contrib-sakura-io-datastore-api
 npm install node-red-contrib-google-translate
 npm install node-red-contrib-sendgrid
 npm install node-red-contrib-tensorflow
-npm install node-red-contrib-openjtalk
+npm install node-red-contrib-qrcode
+npm install node-red-contrib-mqtt-broker
 npm install node-red-contrib-opencv
 npm install node-red-contrib-whois
+npm install node-red-contrib-clipboard
 
 cd ~/node-red
 npm start
