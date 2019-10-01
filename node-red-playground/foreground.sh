@@ -4,7 +4,7 @@ npm -v
 # node-red
 git clone https://github.com/node-red/node-red.git
 cd node-red
-git checkout dev
+#git checkout dev
 npm install
 npm run build
 mkdir ~/.node-red
