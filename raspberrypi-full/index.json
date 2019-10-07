@@ -1,0 +1,24 @@
+{
+  "title": "Raspberry Pi playground",
+  "description": "Raspberry Pi playground",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 5901
+  }
+}
