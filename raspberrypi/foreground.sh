@@ -1,5 +1,4 @@
-apt-get install -y qemu;
-wget https://github.com/dhruvvyas90/qemu-rpi-kernel/raw/master/kernel-qemu-4.19.50-buster;
+apt-get install -y qemu; wget https://github.com/dhruvvyas90/qemu-rpi-kernel/raw/master/kernel-qemu-4.19.50-buster;
 wget https://github.com/dhruvvyas90/qemu-rpi-kernel/raw/master/versatile-pb.dtb;
 wget https://downloads.raspberrypi.org/raspbian_full_latest;
 unzip raspbian_full_latest;
