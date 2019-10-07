@@ -15,9 +15,7 @@
     }
   },
   "environment": {
-    "showdashboard": true,
-    "uilayout": "terminal",
-    "hidefinish": true
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu",
