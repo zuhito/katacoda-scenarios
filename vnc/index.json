@@ -21,7 +21,7 @@
     "hidefinish": true
   },
   "backend": {
-    "imageid": "node",
+    "imageid": "ubuntu",
     "port": 8080
   }
 }
