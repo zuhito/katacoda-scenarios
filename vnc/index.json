@@ -17,7 +17,7 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [{"name": "Node-RED", "port": 8080}],
-    "uilayout": "terminal",
+    "uilayout": "iframe",
     "hidefinish": true
   },
   "backend": {
