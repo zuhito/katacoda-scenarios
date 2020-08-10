@@ -1,2 +1,1 @@
-apt-get install -y vnc4server; printf "password\npassword\n\n" | vnc4passwd; vncserver -geometry 1366x768; sudo snap install novnc
-novnc --listen 8080 --vnc localhost:5901
+docker run -p 8080:80 -e RESOLUTION=800x600 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
