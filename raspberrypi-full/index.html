@@ -4,7 +4,7 @@
         if (i > 0) {
             document.open();
             document.write("Remaining time: " + i + " seconds");
-            i += 5;
+            i -= 5;
             document.close();
         } else {
             window.location.href = "./vnc.html?autoconnect=true";
