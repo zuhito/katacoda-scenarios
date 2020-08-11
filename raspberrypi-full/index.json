@@ -16,7 +16,8 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "Open Node-RED", "port": 1880}],
+    "dashboards": [{"name": "Open desktop", "port": 8080},
+    {"name": "Open Node-RED", "port": 1880}],
     "uilayout": "terminal"
   },
   "backend": {
