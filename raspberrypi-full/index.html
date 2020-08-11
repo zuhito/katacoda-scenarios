@@ -1,13 +1,13 @@
 <html><head><script>
-    var i = 240;
-    setInterval(function () {
+    var i = 3;
+    var id = setInterval(function () {
         if (i > 0) {
             document.open();
-            document.write("Remaining time: " + i + " seconds");
-            i -= 5;
+            document.write("Remaining time: " + i-- + " seconds");
             document.close();
         } else {
+            clearInterval(id);
             window.location.href = "./vnc.html?autoconnect=true";
         }
-    }, 5000)
+    }, 1000)
 </script></head></html>
