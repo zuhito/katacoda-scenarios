@@ -15,6 +15,7 @@
     }
   },
   "environment": {
+    "hidefinish": true,
     "showdashboard": true,
     "dashboards": [{"name": "Open desktop", "port": 8080},
     {"name": "Open Node-RED", "port": 1880}],
