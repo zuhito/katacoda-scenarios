@@ -22,6 +22,6 @@
   },
   "backend": {
     "imageid": "ubuntu",
-    "port": 5901
+    "port": 8080
   }
 }
