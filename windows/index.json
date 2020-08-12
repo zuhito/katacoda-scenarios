@@ -19,7 +19,7 @@
     "showdashboard": true,
     "dashboards": [{"name": "Open desktop", "port": 8080},
     {"name": "Open Node-RED", "port": 1880}],
-    "uilayout": "terminal"
+    "uilayout": "iframe"
   },
   "backend": {
     "imageid": "ubuntu:2004",
