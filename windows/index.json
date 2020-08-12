@@ -1,0 +1,28 @@
+{
+  "title": "Raspberry Pi playground",
+  "description": "Raspberry Pi playground",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "hidefinish": true,
+    "showdashboard": true,
+    "dashboards": [{"name": "Open desktop", "port": 8080},
+    {"name": "Open Node-RED", "port": 1880}],
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004",
+    "port": 8080
+  }
+}
