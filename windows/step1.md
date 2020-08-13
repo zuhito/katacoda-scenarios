@@ -1,4 +1,4 @@
-The Windows environment will start within five minutes.
+The Windows environment will start within six minutes.
 Using the following ID and password, you can login the Windows.
 
 - User: IEUser
